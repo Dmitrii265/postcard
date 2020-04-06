@@ -159,14 +159,14 @@ for (var i = 1; i <= 2019; i++) {
 }//
 //15. Задача. Дана строка вида 'var_text_hello'. Сделайте из него текст 'varTextHello'. //
 
-/*var str = 'var_text_hello'; 
+var str = 'var_text_hello'; 
 var arr = str.split('_'); 
 var newArr = []; 
 
 for (i = 1; i < arr.length; i++) { 
 arr[0].toLowerCase(); 
 newArr.push(firstSymUp(arr[i])); 
-}*/ 
+} 
 
 /*function firstSymUp(word) { 
 var res = word.slice(0,1).toUpperCase() + word.slice(1); 
